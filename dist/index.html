@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="h-full bg-gradient-to-b from-violet-500 to-fuchsia-500">
+    <main>
+        <section class="p-20">
+            <h2 class="font-serif font-bold text-5xl">Anime Carousel</h2>
+            <div class="bg-gray-700 p-10 rounded-md relative w-180 md:w-full">
+                <div class="flex w-110 md:w-full overflow-hidden shadow-inner shadow-zinc-50" id="defaultImageContainer"></div>
+                <button class="bg-slate-200 opacity-30 w-8 h-24 md:h-20 absolute top-32 right-2" id="nextDefImgs"><i class="fa-solid fa-forward text-orange-500"></i></button>
+                <button class="bg-slate-200 opacity-30 w-8 h-24 md:h-20 absolute top-32 left-2" id="previousDefImgs"><i class="fa-solid fa-backward text-orange-500"></i></button>
+            </div>
+            <button class="bg-emerald-400 rounded-lg p-1 shadow-md shadow-slate-900 font-semibold block w-24 m-auto mt-5" id="shuffleDefImgs"><i class="fa-solid fa-shuffle"></i></button>
+        </section>
+        <section class="p-20">
+            <h2 class="font-serif font-bold text-5xl">Fetched Image Carousel</h2>
+            <div class="bg-gray-700 p-10 rounded-md relative w-180 md:w-full">
+                <div class="flex w-110 md:w-full overflow-hidden shadow-inner shadow-zinc-50" id="fetchedImageContainer"></div>
+                <button class="bg-slate-200 opacity-30 w-8 h-24 md:h-20 absolute top-32 right-2" id="nextFetImgs"><i class="fa-solid fa-forward text-orange-500"></i></button>
+                <button class="bg-slate-200 opacity-30 w-8 h-24 md:h-20 absolute top-32 left-2" id="previousFetImgs"><i class="fa-solid fa-backward text-orange-500"></i></button>
+            </div>
+            <button class="bg-emerald-400 rounded-lg p-1 shadow-md shadow-slate-900 font-semibold block w-24 m-auto mt-5" id="shuffleFetchedImgs"><i class="fa-solid fa-shuffle"></i></button>
+        </section>
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

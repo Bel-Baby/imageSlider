@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.w-110 {
+    width: 1100px;
+}
+.w-180 {
+    width: 1180px;
+}
