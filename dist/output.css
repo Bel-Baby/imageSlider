@@ -596,12 +596,12 @@ video {
   position: relative;
 }
 
-.-right-1 {
-  right: -0.25rem;
-}
-
 .left-2 {
   left: 0.5rem;
+}
+
+.right-2 {
+  right: 0.5rem;
 }
 
 .top-24 {
@@ -628,8 +628,8 @@ video {
   height: 5rem;
 }
 
-.h-48 {
-  height: 12rem;
+.h-44 {
+  height: 11rem;
 }
 
 .h-full {
@@ -640,12 +640,16 @@ video {
   width: 6rem;
 }
 
-.w-36 {
-  width: 9rem;
+.w-28 {
+  width: 7rem;
 }
 
 .w-8 {
   width: 2rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .overflow-hidden {
@@ -770,10 +774,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:right-2 {
-    right: 0.5rem;
-  }
-
   .lg\:top-32 {
     top: 8rem;
   }
