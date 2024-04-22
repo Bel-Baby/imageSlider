@@ -765,20 +765,20 @@ video {
   width: 1180px;
 }
 
-@media (min-width: 768px) {
-  .md\:h-24 {
+@media (min-width: 1024px) {
+  .lg\:h-24 {
     height: 6rem;
   }
 
-  .md\:h-72 {
+  .lg\:h-72 {
     height: 18rem;
   }
 
-  .md\:w-60 {
+  .lg\:w-60 {
     width: 15rem;
   }
 
-  .md\:p-20 {
+  .lg\:p-20 {
     padding: 5rem;
   }
 }

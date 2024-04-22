@@ -30,9 +30,9 @@ const defaultImages = {
 Object.keys(defaultImages).forEach(images => {
     const img = document.createElement('img');
     img.src = defaultImages[images];
-    img.classList.add('md:h-72');
+    img.classList.add('lg:h-72');
     img.classList.add('h-64');
-    img.classList.add('md:w-60');
+    img.classList.add('lg:w-60');
     img.classList.add('w-52');
     defaultImageContainer.appendChild(img);
 });
@@ -51,9 +51,9 @@ fetch('https://jsonplaceholder.typicode.com/photos')
         imgArr.slice(startIndex, endIndex).forEach(images => {
             const img = document.createElement('img');
             img.src = images.thumbnailUrl;
-            img.classList.add('md:h-72');
+            img.classList.add('lg:h-72');
             img.classList.add('h-64');
-            img.classList.add('md:w-60');
+            img.classList.add('lg:w-60');
             img.classList.add('w-52');
             fetchedImageContainer.appendChild(img);
         })
