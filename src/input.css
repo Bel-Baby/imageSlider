@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.w-98 {
+    width: 650px;
+}
+
+.w-100 {
+    width: 720px;
+}
 
 .w-110 {
     width: 1100px;
