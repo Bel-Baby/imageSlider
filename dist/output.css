@@ -604,8 +604,12 @@ video {
   right: 0.5rem;
 }
 
-.top-24 {
-  top: 6rem;
+.top-16 {
+  top: 4rem;
+}
+
+.top-20 {
+  top: 5rem;
 }
 
 .m-auto {
@@ -624,8 +628,8 @@ video {
   display: flex;
 }
 
-.h-20 {
-  height: 5rem;
+.h-11 {
+  height: 2.75rem;
 }
 
 .h-32 {
@@ -703,6 +707,11 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
 }
 
 .text-center {
@@ -792,5 +801,10 @@ video {
 
   .lg\:p-20 {
     padding: 5rem;
+  }
+
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 }
