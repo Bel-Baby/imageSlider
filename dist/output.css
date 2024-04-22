@@ -624,8 +624,8 @@ video {
   display: flex;
 }
 
-.h-24 {
-  height: 6rem;
+.h-20 {
+  height: 5rem;
 }
 
 .h-72 {
@@ -646,6 +646,10 @@ video {
 
 .w-8 {
   width: 2rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .overflow-hidden {
@@ -697,8 +701,12 @@ video {
   padding: 2.5rem;
 }
 
-.p-20 {
-  padding: 5rem;
+.p-4 {
+  padding: 1rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-serif {
@@ -758,11 +766,11 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:h-20 {
-    height: 5rem;
+  .md\:h-24 {
+    height: 6rem;
   }
 
-  .md\:w-full {
-    width: 100%;
+  .md\:p-20 {
+    padding: 5rem;
   }
 }
