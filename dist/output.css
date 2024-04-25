@@ -604,10 +604,6 @@ video {
   right: 0.5rem;
 }
 
-.top-16 {
-  top: 4rem;
-}
-
 .top-20 {
   top: 5rem;
 }
@@ -695,6 +691,11 @@ video {
 
 .to-fuchsia-500 {
   --tw-gradient-to: #d946ef var(--tw-gradient-to-position);
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .p-1 {
